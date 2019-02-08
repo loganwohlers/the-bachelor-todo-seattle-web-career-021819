@@ -20,7 +20,7 @@ def get_contestant_name(data, occupation)
       v.each do |h|
         h.each do |k2, v2|
           if v2==occupation
-            return data[k][n]["name"].split(" ")[0]
+            return data[k][n]["name"]
           end
         end
         n+=1
