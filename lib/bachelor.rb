@@ -1,14 +1,16 @@
 def get_first_name_of_season_winner(data, season)
   data.each do |k,v|
     if (k==season)
+      n=0
       v.each do |h|
         h.each do |k2, v2|
           puts k2
           puts v2
           if v2=="Winner"
-            return data[k][1]
+            return data[k][n]
           end
         end
+        n+=1
       end
     end
   end
