@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
           puts k2
           puts v2
           if (v2=="Winner")
-            return data[k][v]
+            return data[k]
           end
         end
       end
