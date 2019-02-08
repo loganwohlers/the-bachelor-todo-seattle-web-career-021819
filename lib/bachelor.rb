@@ -44,12 +44,14 @@ end
 
 def get_occupation(data, hometown)
   data.each do |k,v|
+    n=0
       v.each do |h|
         h.each do |k2, v2|
           if v2==hometown
-            n+=1
+            return data[k][n]["occupation:]
           end
         end
+        n+=1
       end
     end
 end
