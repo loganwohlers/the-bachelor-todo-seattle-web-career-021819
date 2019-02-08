@@ -5,6 +5,10 @@ def get_first_name_of_season_winner(data, season)
         h.each do |k2, v2|
           if (v=="Winner")
             return data[season][h]["name"].split(" ")[0]
+          end
+        end
+      end
+    end
         
 end
 
