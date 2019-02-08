@@ -5,9 +5,6 @@ def get_first_name_of_season_winner(data, season)
         h.each do |k2, v2|
           puts k2
           puts v2
-          if (v2=="Winner")
-            return data[k]
-          end
         end
       end
     end
