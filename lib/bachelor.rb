@@ -60,11 +60,10 @@ def get_average_age_for_season(data, season)
   data.each do |k,v|
     a=[]
     if (k==season)
+      n=0
       v.each do |h|
-        h.each do |k2, v2|
-           
-          end
-        end
+        a.push()
+        n+=1
       end
     end
   end
