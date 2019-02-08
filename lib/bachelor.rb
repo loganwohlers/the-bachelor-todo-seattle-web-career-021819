@@ -50,6 +50,7 @@ def get_occupation(data, hometown)
           if v2==hometown
             return data[k][n]["occupation:]
           end
+          
         end
         n+=1
       end
