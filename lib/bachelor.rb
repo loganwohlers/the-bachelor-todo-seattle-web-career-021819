@@ -16,7 +16,6 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |k,v|
-    if (k==season)
       n=0
       v.each do |h|
         h.each do |k2, v2|
@@ -27,8 +26,6 @@ def get_contestant_name(data, occupation)
         n+=1
       end
     end
-  end
-  
 end
 
 def count_contestants_by_hometown(data, hometown)
