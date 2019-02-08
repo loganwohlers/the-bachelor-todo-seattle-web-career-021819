@@ -48,9 +48,8 @@ def get_occupation(data, hometown)
       v.each do |h|
         h.each do |k2, v2|
           if v2==hometown
-            return data[k][n]["occupation:]
+            return
           end
-          
         end
         n+=1
       end
